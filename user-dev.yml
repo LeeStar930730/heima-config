@@ -1,6 +1,6 @@
 #端口
 server:
-  port: ${port:9091}
+  port: 9091
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -25,4 +25,3 @@ eureka:
       lease-expiration-duration-in-seconds: 1000
      # 服务间隔时间 默认30秒
       lease-renewal-interval-in-seconds: 1000
-#test: name
